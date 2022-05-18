@@ -1,6 +1,6 @@
 ![](logo.png)
 
-instauto is an Instagram automation/bot library written in modern, clean javascript using Google's Puppeteer. Goal is to be very easy to set up, use, and extend, and obey instagram's limits. Heavily inspired by [InstaPy](https://github.com/timgrossmann/InstaPy), but I thought it was way too heavy and hard to setup.
+instauto is an Instagram automation/bot library written in modern, clean javascript using Google's Puppeteer. The goal is to be very easy to set up, use, and extend as well as obey Instagram's limits. Heavily inspired by [InstaPy](https://github.com/InstaPy/InstaPy), but I thought it was way too heavy and hard to setup.
 
 **NEW! 🎉**
 Now there is a GUI application for those who don't want to code: [SimpleInstaBot](https://mifi.github.io/SimpleInstaBot/)
@@ -37,14 +37,14 @@ See [index.js](https://github.com/mifi/instauto/blob/master/src/index.js) for av
 
 - The code automatically prevents breaching 100 follow/unfollows per hour or 700 per 24hr, to prevent bans. This can be configured.
 
-See [example.js](https://github.com/mifi/instauto/blob/master/example.js) for example of features
+See [example.js](https://github.com/mifi/instauto/blob/master/example.js) for an example of features
 
 ## Tips
 - Run this on a machine with a non-cloud IP to avoid being banned
 
 ## Troubleshooting
 
-- If it doesn't work, make sure your instagram language is set to english
+- If it doesn't work, make sure your Instagram language is set to English
 
 ## Running on Raspberry Pi
 
